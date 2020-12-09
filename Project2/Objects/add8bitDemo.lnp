@@ -1,0 +1,3 @@
+".\Objects\add8bitdemo.obj" 
+TO ".\Objects\add8bitDemo" 
+PRINT(".\Listings\add8bitDemo.m51")

@@ -1,0 +1,29 @@
+A51 MACRO ASSEMBLER  ADD8BITDEMO                                                          12/08/2020 17:33:42 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\add8bitdemo.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE add8bitdemo.asm SET(SMALL) DEBUG PRINT(.\Listings\add8bitdemo.lst) OBJE
+                      CT(.\Objects\add8bitdemo.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7409              2     mov a,#09h
+0002 7A03              3     mov r2,#03h
+0004 2A                4     add a,r2
+                       5     end
+A51 MACRO ASSEMBLER  ADD8BITDEMO                                                          12/08/2020 17:33:42 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

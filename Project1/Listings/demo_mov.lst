@@ -1,0 +1,27 @@
+A51 MACRO ASSEMBLER  DEMO_MOV                                                             12/08/2020 16:51:26 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\demo_mov.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE demo_mov.asm SET(SMALL) DEBUG PRINT(.\Listings\demo_mov.lst) OBJECT(.\O
+                      bjects\demo_mov.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7920              2             mov r1,#20h
+                       3             end
+A51 MACRO ASSEMBLER  DEMO_MOV                                                             12/08/2020 16:51:26 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

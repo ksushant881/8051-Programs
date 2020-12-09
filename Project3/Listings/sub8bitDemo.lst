@@ -1,0 +1,29 @@
+A51 MACRO ASSEMBLER  SUB8BITDEMO                                                          12/08/2020 17:53:06 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\sub8bitDemo.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE sub8bitDemo.asm SET(SMALL) DEBUG PRINT(.\Listings\sub8bitDemo.lst) OBJE
+                      CT(.\Objects\sub8bitDemo.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7423              2     mov a,#23h
+0002 7908              3     mov r1,#08h
+0004 99                4     subb a,r1
+                       5     end
+A51 MACRO ASSEMBLER  SUB8BITDEMO                                                          12/08/2020 17:53:06 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

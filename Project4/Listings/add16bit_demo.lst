@@ -1,0 +1,38 @@
+A51 MACRO ASSEMBLER  ADD16BIT_DEMO                                                        12/09/2020 13:50:24 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\add16bit_demo.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE add16bit_demo.asm SET(SMALL) DEBUG PRINT(.\Listings\add16bit_demo.lst) 
+                      OBJECT(.\Objects\add16bit_demo.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+                       2     
+                       3     
+                       4     
+0000                   5     org 0000h
+0000 74FE              6             mov a,#0feh
+0002 7810              7             mov r0,#10h
+0004 28                8             add a,r0
+0005 FB                9             mov r3,a
+0006 7401             10             mov a,#01h
+0008 7902             11             mov r1,#02h
+000A 39               12             addc a,r1
+000B FA               13             mov r2,a
+                      14             end
+A51 MACRO ASSEMBLER  ADD16BIT_DEMO                                                        12/09/2020 13:50:24 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

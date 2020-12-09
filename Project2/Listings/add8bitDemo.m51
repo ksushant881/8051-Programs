@@ -1,0 +1,42 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    12/08/2020  17:33:43  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\add8bitdemo.obj TO .\Objects\add8bitDemo PRINT (.\Listings\add8bitDemo.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\add8bitdemo.obj (ADD8BITDEMO)
+
+
+LINK MAP OF MODULE:  .\Objects\add8bitDemo (ADD8BITDEMO)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0005H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\add8bitDemo (ADD8BITDEMO)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ADD8BITDEMO
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  -------         ENDMOD        ADD8BITDEMO
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0005H BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=5
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

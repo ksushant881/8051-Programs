@@ -1,0 +1,3 @@
+".\Objects\add16bit_demo.obj" 
+TO ".\Objects\add16bit_demo" 
+PRINT(".\Listings\add16bit_demo.m51")
