@@ -1,0 +1,36 @@
+A51 MACRO ASSEMBLER  SUB16BIT_DEMO                                                        12/09/2020 16:40:45 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\sub16bit_demo.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE sub16bit_demo.asm SET(SMALL) DEBUG PRINT(.\Listings\sub16bit_demo.lst) 
+                      OBJECT(.\Objects\sub16bit_demo.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+                       2     
+0000                   3     org 0000h
+0000 7855              4             mov r0,#55h
+0002 7423              5             mov a,#23h
+0004 98                6             subb a,r0
+0005 FB                7             mov r3,a
+0006 79A2              8             mov r1,#0a2h
+0008 74BC              9             mov a,#0bch
+000A 99               10             subb a,r1
+000B FA               11             mov r2,a
+                      12             end
+A51 MACRO ASSEMBLER  SUB16BIT_DEMO                                                        12/09/2020 16:40:45 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,4 +1,4 @@
-A51 MACRO ASSEMBLER  SUB8BITDEMO                                                          12/08/2020 17:53:06 PAGE     1
+A51 MACRO ASSEMBLER  SUB8BITDEMO                                                          12/09/2020 16:35:30 PAGE     1
 
 
 MACRO ASSEMBLER A51 V8.2.7.0
@@ -8,12 +8,14 @@ ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE sub8bitDemo.asm SET(SMALL) DEBU
 
 LOC  OBJ            LINE     SOURCE
 
-0000                   1     org 0000h
-0000 7423              2     mov a,#23h
-0002 7908              3     mov r1,#08h
-0004 99                4     subb a,r1
-                       5     end
-A51 MACRO ASSEMBLER  SUB8BITDEMO                                                          12/08/2020 17:53:06 PAGE     2
+                       1     
+                       2     
+0000                   3     org 0000h
+0000 7423              4     mov a,#23h
+0002 7908              5     mov r1,#08h
+0004 99                6     subb a,r1
+                       7     end
+A51 MACRO ASSEMBLER  SUB8BITDEMO                                                          12/09/2020 16:35:30 PAGE     2
 
 SYMBOL TABLE LISTING
 ------ ----- -------
