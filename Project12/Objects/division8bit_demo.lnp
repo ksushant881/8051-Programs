@@ -1,0 +1,3 @@
+".\Objects\division8bit_demo.obj" 
+TO ".\Objects\division8bit_demo" 
+PRINT(".\Listings\division8bit_demo.m51")

@@ -1,0 +1,49 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    12/11/2020  00:29:52  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\subtraction_with_loop.obj TO .\Objects\subtraction_with_loop PRINT (.\Listings\sub
+>> traction_with_loop.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\subtraction_with_loop.obj (SUBTRACTION_WITH_LOOP)
+
+
+LINK MAP OF MODULE:  .\Objects\subtraction_with_loop (SUBTRACTION_WITH_LOOP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     000BH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\subtraction_with_loop (SUBTRACTION_WITH_LOOP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        SUBTRACTION_WITH_LOOP
+  B:00D0H.7       SYMBOL        CY
+  C:000AH         SYMBOL        NEXT
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0004H         LINE#         4
+  C:0006H         LINE#         5
+  C:0008H         LINE#         6
+  C:0009H         LINE#         7
+  C:000AH         LINE#         8
+  -------         ENDMOD        SUBTRACTION_WITH_LOOP
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 000BH BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=11
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

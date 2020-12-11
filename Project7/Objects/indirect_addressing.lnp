@@ -1,0 +1,3 @@
+".\Objects\indirect_addressing_addition.obj" 
+TO ".\Objects\indirect_addressing" 
+PRINT(".\Listings\indirect_addressing.m51")

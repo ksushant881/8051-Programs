@@ -1,0 +1,33 @@
+A51 MACRO ASSEMBLER  MULTIPLICATION_USING_ADDITION                                        12/11/2020 10:26:33 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\multiplication_using_addition.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE multiplication_using_addition.asm SET(SMALL) DEBUG PRINT(.\Listings\mul
+                      tiplication_using_addition.lst) OBJECT(.\Objects\multiplication_using_addition.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+0000                   2     org 000h
+0000 7804              3             mov r0,#04h
+0002 7905              4             mov r1,#05h
+0004 E4                5             clr a
+0005 29                6             stat:add a,r1
+0006 D8FD              7                      djnz r0,stat
+                       8             end
+A51 MACRO ASSEMBLER  MULTIPLICATION_USING_ADDITION                                        12/11/2020 10:26:33 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+STAT . . . . . . .  C ADDR   0005H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

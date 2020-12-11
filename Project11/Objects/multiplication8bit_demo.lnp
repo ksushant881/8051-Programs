@@ -1,0 +1,3 @@
+".\Objects\multiplication8bit_demo.obj" 
+TO ".\Objects\multiplication8bit_demo" 
+PRINT(".\Listings\multiplication8bit_demo.m51")

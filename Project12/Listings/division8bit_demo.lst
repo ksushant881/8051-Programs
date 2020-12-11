@@ -1,0 +1,30 @@
+A51 MACRO ASSEMBLER  DIVISION8BIT_DEMO                                                    12/11/2020 11:13:50 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\division8bit_demo.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE division8bit_demo.asm SET(SMALL) DEBUG PRINT(.\Listings\division8bit_de
+                      mo.lst) OBJECT(.\Objects\division8bit_demo.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 75F003            2             mov b,#03h
+0003 7424              3             mov a,#24h
+0005 84                4             div ab
+                       5             end
+A51 MACRO ASSEMBLER  DIVISION8BIT_DEMO                                                    12/11/2020 11:13:50 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

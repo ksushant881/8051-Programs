@@ -1,0 +1,48 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    12/11/2020  11:37:10  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\division_using_substraction.obj TO .\Objects\division_using_substraction PRINT (.\
+>> Listings\division_using_substraction.m51)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\division_using_substraction.obj (DIVISION_USING_SUBSTRACTION)
+
+
+LINK MAP OF MODULE:  .\Objects\division_using_substraction (DIVISION_USING_SUBSTRACTION)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     000DH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\division_using_substraction (DIVISION_USING_SUBSTRACTION)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        DIVISION_USING_SUBSTRACTION
+  D:00F0H         SYMBOL        B
+  C:0007H         SYMBOL        STAT
+  C:0000H         LINE#         2
+  C:0002H         LINE#         3
+  C:0005H         LINE#         4
+  C:0007H         LINE#         5
+  C:0009H         LINE#         6
+  C:000AH         LINE#         7
+  -------         ENDMOD        DIVISION_USING_SUBSTRACTION
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 000DH BYTE ( 0%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=13
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

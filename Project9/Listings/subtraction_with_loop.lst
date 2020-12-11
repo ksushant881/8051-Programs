@@ -1,0 +1,35 @@
+A51 MACRO ASSEMBLER  SUBTRACTION_WITH_LOOP                                                12/11/2020 00:29:51 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\subtraction_with_loop.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE subtraction_with_loop.asm SET(SMALL) DEBUG PRINT(.\Listings\subtraction
+                      _with_loop.lst) OBJECT(.\Objects\subtraction_with_loop.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 C2D7              2             clr cy
+0002 746E              3             mov a,#6eh
+0004 944C              4             subb a,#4ch
+0006 5002              5             jnc next  
+0008 F4                6             cpl a 
+0009 04                7             inc a
+000A F9                8             next:mov r1,a
+                       9             end
+A51 MACRO ASSEMBLER  SUBTRACTION_WITH_LOOP                                                12/11/2020 00:29:51 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+CY . . . . . . . .  B ADDR   00D0H.7 A   
+NEXT . . . . . . .  C ADDR   000AH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

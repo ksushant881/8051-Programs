@@ -1,0 +1,35 @@
+A51 MACRO ASSEMBLER  DIVISION_USING_SUBSTRACTION                                          12/11/2020 11:37:08 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\division_using_substraction.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE division_using_substraction.asm SET(SMALL) DEBUG PRINT(.\Listings\divis
+                      ion_using_substraction.lst) OBJECT(.\Objects\division_using_substraction.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7424              2             mov a,#24h
+0002 75F003            3             mov b,#3h
+0005 7900              4             mov r1,#00h
+0007 95F0              5             stat:subb a,b
+0009 09                6             inc r1
+000A B400FA            7             cjne a,#00h,stat
+                       8             end
+                                     
+A51 MACRO ASSEMBLER  DIVISION_USING_SUBSTRACTION                                          12/11/2020 11:37:08 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+STAT . . . . . . .  C ADDR   0007H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
