@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>subtraction_when_first_no._is_smaller</OutputName>
+          <OutputName>square_using_addition</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -377,9 +377,9 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>subtraction_first_number_small.asm</FileName>
+              <FileName>square_using_addition.asm</FileName>
               <FileType>2</FileType>
-              <FilePath>.\subtraction_first_number_small.asm</FilePath>
+              <FilePath>.\square_using_addition.asm</FilePath>
             </File>
           </Files>
         </Group>

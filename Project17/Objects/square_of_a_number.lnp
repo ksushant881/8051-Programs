@@ -1,0 +1,3 @@
+".\Objects\square_of_a_number.obj" 
+TO ".\Objects\square_of_a_number" 
+PRINT(".\Listings\square_of_a_number.m51")

@@ -1,0 +1,3 @@
+".\Objects\xor_operation.obj" 
+TO ".\Objects\xor_operation" 
+PRINT(".\Listings\xor_operation.m51")

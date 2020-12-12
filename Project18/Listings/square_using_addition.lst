@@ -1,0 +1,39 @@
+A51 MACRO ASSEMBLER  SQUARE_USING_ADDITION                                                12/12/2020 21:23:29 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\square_using_addition.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE square_using_addition.asm SET(SMALL) DEBUG PRINT(.\Listings\square_usin
+                      g_addition.lst) OBJECT(.\Objects\square_using_addition.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 C3                2             clr c
+0001 7830              3             mov r0,#30h
+0003 E6                4             mov a,@r0
+0004 F9                5             mov r1,a
+0005 FA                6             mov r2,a
+0006 1A                7             dec r2
+0007 29                8             stat:add a,r1
+0008 DAFD              9             djnz r2,stat
+000A 9231             10             mov 31h,c
+000C F532             11             mov 32h,a
+                      12             end
+                                     
+                                     
+A51 MACRO ASSEMBLER  SQUARE_USING_ADDITION                                                12/12/2020 21:23:29 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+STAT . . . . . . .  C ADDR   0007H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

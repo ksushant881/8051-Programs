@@ -1,0 +1,36 @@
+A51 MACRO ASSEMBLER  SUBTRACTION_FIRST_NUMBER_SMALL                                       12/12/2020 22:11:53 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\subtraction_first_number_small.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE subtraction_first_number_small.asm SET(SMALL) DEBUG PRINT(.\Listings\su
+                      btraction_first_number_small.lst) OBJECT(.\Objects\subtraction_first_number_small.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+0000                   2     org 0000h
+0000 C2D7              3             clr cy
+0002 784C              4             mov r0,#4ch
+0004 796E              5             mov r1,#6eh
+0006 E9                6             mov a,r1
+0007 F4                7             cpl a
+0008 04                8             inc a
+0009 28                9             add a,r0
+000A F530             10             mov 30h,a
+                      11             end
+A51 MACRO ASSEMBLER  SUBTRACTION_FIRST_NUMBER_SMALL                                       12/12/2020 22:11:53 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+CY . . . . . . . .  B ADDR   00D0H.7 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

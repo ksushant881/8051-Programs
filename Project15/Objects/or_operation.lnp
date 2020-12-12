@@ -1,0 +1,3 @@
+".\Objects\or_operation.obj" 
+TO ".\Objects\or_operation" 
+PRINT(".\Listings\or_operation.m51")

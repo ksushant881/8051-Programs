@@ -73,7 +73,7 @@
         <LExpSel>0</LExpSel>
       </OPTXL>
       <OPTFL>
-        <tvExp>1</tvExp>
+        <tvExp>0</tvExp>
         <tvExpOptDlg>0</tvExpOptDlg>
         <IsCurrentTarget>1</IsCurrentTarget>
       </OPTFL>
@@ -197,8 +197,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\subtraction_first_number_small.asm</PathWithFileName>
-      <FilenameWithoutPath>subtraction_first_number_small.asm</FilenameWithoutPath>
+      <PathWithFileName>.\square_using_addition.asm</PathWithFileName>
+      <FilenameWithoutPath>square_using_addition.asm</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

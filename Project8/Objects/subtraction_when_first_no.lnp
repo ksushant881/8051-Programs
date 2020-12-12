@@ -1,0 +1,3 @@
+".\Objects\subtraction_first_number_small.obj" 
+TO ".\Objects\subtraction_when_first_no._is_smaller" 
+PRINT(".\Listings\subtraction_when_first_no.m51")

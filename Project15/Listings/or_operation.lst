@@ -1,0 +1,31 @@
+A51 MACRO ASSEMBLER  OR_OPERATION                                                         12/12/2020 14:21:32 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\or_operation.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE or_operation.asm SET(SMALL) DEBUG PRINT(.\Listings\or_operation.lst) OB
+                      JECT(.\Objects\or_operation.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7830              2             mov r0,#30h
+0002 74FF              3             mov a,#0ffh
+0004 48                4             orl a,r0
+0005 F550              5             mov 50h,a
+                       6             end
+                                     
+A51 MACRO ASSEMBLER  OR_OPERATION                                                         12/12/2020 14:21:32 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
