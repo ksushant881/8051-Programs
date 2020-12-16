@@ -1,0 +1,41 @@
+A51 MACRO ASSEMBLER  FIND_LARGEST_NUMBER                                                  12/16/2020 16:11:19 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\find_largest_number.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE find_largest_number.asm SET(SMALL) DEBUG PRINT(.\Listings\find_largest_
+                      number.lst) OBJECT(.\Objects\find_largest_number.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7820              2                       mov r0,#20h
+0002 7F05              3                       mov r7,#05h
+0004 E6                4                       mov a,@r0
+0005 08                5                       back: inc r0
+0006 86F0              6                       mov b,@r0
+0008 B5F002            7                       cjne a,b,stat1
+000B 8004              8                       sjmp stat2
+000D 5002              9                       stat1: jnc stat2
+000F E5F0             10                       mov a,b
+0011 DFF2             11                       stat2:djnz r7,back
+0013 F526             12                       mov 26h,a
+                      13             end
+A51 MACRO ASSEMBLER  FIND_LARGEST_NUMBER                                                  12/16/2020 16:11:19 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+BACK . . . . . . .  C ADDR   0005H   A   
+STAT1. . . . . . .  C ADDR   000DH   A   
+STAT2. . . . . . .  C ADDR   0011H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

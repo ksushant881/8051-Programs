@@ -1,0 +1,41 @@
+A51 MACRO ASSEMBLER  SMALLEST_NUMBER                                                      12/16/2020 16:20:11 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\smallest_number.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE smallest_number.asm SET(SMALL) DEBUG PRINT(.\Listings\smallest_number.l
+                      st) OBJECT(.\Objects\smallest_number.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     org 0000h
+0000 7805              2             mov r0,#05h
+0002 7920              3             mov r1,#20h
+0004 E7                4             mov a,@r1
+0005 09                5             back:inc r1
+0006 87F0              6             mov b,@r1
+0008 B5F002            7             cjne a,b,stat1
+000B 8004              8             sjmp stat2
+000D 4002              9             stat1:jc stat2
+000F E5F0             10             mov a,b
+0011 D8F2             11             stat2: djnz r0,back
+0013 F526             12             mov 26h,a
+                      13             end
+A51 MACRO ASSEMBLER  SMALLEST_NUMBER                                                      12/16/2020 16:20:11 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+BACK . . . . . . .  C ADDR   0005H   A   
+STAT1. . . . . . .  C ADDR   000DH   A   
+STAT2. . . . . . .  C ADDR   0011H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,3 @@
+".\Objects\smallest_number.obj" 
+TO ".\Objects\smallest_number" 
+PRINT(".\Listings\smallest_number.m51")
