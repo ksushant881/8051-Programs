@@ -1,4 +1,4 @@
-A51 MACRO ASSEMBLER  SQUARE_OF_A_NUMBER                                                   12/12/2020 16:59:32 PAGE     1
+A51 MACRO ASSEMBLER  SQUARE_OF_A_NUMBER                                                   12/18/2020 13:53:04 PAGE     1
 
 
 MACRO ASSEMBLER A51 V8.2.7.0
@@ -18,7 +18,7 @@ LOC  OBJ            LINE     SOURCE
 0009 08                8             inc r0
 000A F6                9             mov @r0,a
                       10             end
-A51 MACRO ASSEMBLER  SQUARE_OF_A_NUMBER                                                   12/12/2020 16:59:32 PAGE     2
+A51 MACRO ASSEMBLER  SQUARE_OF_A_NUMBER                                                   12/18/2020 13:53:04 PAGE     2
 
 SYMBOL TABLE LISTING
 ------ ----- -------
